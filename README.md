@@ -1,4 +1,4 @@
-# true-lens-hackathon
+# truera-hackathon
 
 ## Ideas
 ### Open Sourced LLM Agents
