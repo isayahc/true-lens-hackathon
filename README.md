@@ -10,6 +10,12 @@ Creating embeddings for Large Language Model (LLM) retrievers for many developer
 
 An agent that is able to configure embeddings. Using [TruEra's Trulens]("https://github.com/truera/trulens") for verification of results and benchmarking
 
+## Tutorials
+
+- https://github.com/truera/trulens/blob/main/trulens_eval/examples/expositional/models/google_vertex_quickstart.ipynb
+
+## References
+
 
 
 <!-- ## Ideas
