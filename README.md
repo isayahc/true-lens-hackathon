@@ -13,6 +13,7 @@ An agent that is able to configure embeddings. Using [TruEra's Trulens]("https:/
 ## Tutorials
 
 - https://github.com/truera/trulens/blob/main/trulens_eval/examples/expositional/models/google_vertex_quickstart.ipynb
+- https://github.com/truera/trulens/blob/main/trulens_eval/examples/expositional/vector-dbs/milvus/milvus_evals_build_better_rags.ipynb
 
 ## References
 
