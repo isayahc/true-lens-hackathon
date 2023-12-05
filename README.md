@@ -19,6 +19,10 @@ An agent that is able to configure embeddings. Using [TruEra's Trulens]("https:/
 
 
 
+text - https://zilliz.com/blog/comparing-different-vector-embeddings
+
+images - https://zilliz.com/blog/use-ai-find-your-celebrity-style-two
+
 <!-- ## Ideas
 ### Open Sourced LLM Agents
 #### Problem Statement
@@ -27,3 +31,10 @@ An agent that is able to configure embeddings. Using [TruEra's Trulens]("https:/
   - Behavior or models change
 #### Solution
 - using an agent the help produce better results of open sourced LLM agents -->
+
+
+
+
+
+
+
