@@ -21,25 +21,10 @@ aiplatform.init(
     location="us-central1"
 )
 
-litellm = LiteLLM(model_engine="chat-bison")
+feedback_model = LiteLLM(model_engine="chat-bison")
 
 response = completion(model="chat-bison", messages=[{"role": "user", "content": "write code for saying hi from LiteLLM"}])
 
-
-
-
-# os.environ["VERTEX_PROJECT"] = "vectara-404518"
-# os.environ["VERTEX_LOCATION"] = "us-central1"
-
-# sample_endpoint = '//aiplatform.googleapis.com/projects/vectara-404518/locations/us-central1/publishers/google/models/chat-bison@002'
-
-
-
-# litellm = LiteLLM(model_engine="chat-bison",endpoint=sample_endpoint) # choose any model here!
-
-# LiteLLM.endpoint = sample_endpoint
-# LiteLLM.vertex_project = "vectara-404518"
-# LiteLLM.vertex_location = "us-central1"
 
 
 full_prompt = HumanMessagePromptTemplate(
@@ -56,7 +41,7 @@ llm = OpenAI(temperature=0.9, max_tokens=128)
 
 chain = LLMChain(llm=llm, prompt=chat_prompt_template, verbose=True)
 
-relevance = Feedback(litellm.relevance_with_cot_reasons).on_input_output()
+relevance = Feedback(feedback_model.relevance_with_cot_reasons).on_input_output()
 
 prompt_input = 'What is a good name for a store that sells colorful socks?'
 
